@@ -1,0 +1,132 @@
+.Product6{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.Product6ProductCard{
+    background-color: white;
+    width:320px;
+    height:500px;
+    margin:20px;
+    border:solid rgb(244,244,244) 0.8px;
+}
+.Product6ProductImage{
+    width:100%;
+    height:50%;
+    padding:0 6px;
+    margin-bottom: 8px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.Product6ProductDetails{
+    padding:0 8px;
+    margin-bottom: 8px;
+}
+.Product6ProductName{
+    font-size:16px;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.ratingSection{
+    padding-top: 4px;
+    display: flex;
+}
+.stars{
+    background-position-x: -2px;
+    background-position-y: -23px;
+    background-size: 512px 512px;
+    width:80px;
+    height:18px;
+    display:block;
+}
+.arrowIcon{
+    background-position-x: -90px;
+    background-position-y: -5px;
+    background-size: 400px 900px;
+    width:7px;
+    height: 5px;
+    display: block;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.ratings{
+    margin-left: 4px;
+    color:rgb(0,113,113);
+    font-size: 14px;
+    margin-top: -4px;
+}
+.priceSection{
+    margin-top: 8px;
+    display:flex;
+    font-weight: 400px;
+    cursor: pointer;
+}
+.priceIcon{
+    font-size: 13px;
+    margin-top: 8px;
+}
+.Product6Price{
+    font-size: 28px;
+    margin-right: 4px;
+}
+.mrp{
+    font-size: 14px;
+    color:rgb(86,89,89);
+    margin-right: 4px;
+}
+.Product6OriginalPrice{
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.Product6OriginalPrice > .Product6Price{
+    font-size: 13px;
+    text-decoration: line-through;
+    color:rgb(86,89,89);
+    margin-right: 10px;
+}
+.offerPercent{
+    font-size:14px;
+    font-weight: 500;
+}
+.deliverySection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+.primeLogo{
+    background-position-x: -179px;
+    background-position-y: -145px;
+    background-size: 512px 512px;
+    width:53px;
+    height:15px;
+    display:block;
+    margin-right:4px;
+}
+.deliveryDate{
+    display:flex;
+}
+.getItBy{
+    font-size:14px;
+    margin-right: 4px;
+}
+.getItByAfter{
+    font-size: 14px;
+    margin-left: 4px;
+}
+.date{
+    font-size: 14px;
+    font-weight: 700;
+}
+.deliveryType{
+    font-size: 14px;
+    font-weight: 500;
+}
